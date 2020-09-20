@@ -14,7 +14,7 @@
 |AfterOCP|套用 OCP 後 – 可以存取多資料庫的設計||
 |BeforeAppEventOCP|請找出 AppEvent 類別，不符合 開放封閉原則 地方||
 |ModifyAppEventOCP1|修正1 - 找出 AppEvent 類別，不符合 OCP 地方||
-||||
+|ModifyAppEventOCP2|請修正 AppEvent 類別，使其符合 開放封閉原則 ||
 ||||
 ||||
 ||||
