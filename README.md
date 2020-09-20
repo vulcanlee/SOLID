@@ -9,7 +9,7 @@
 |GoodSRP|關於 SRP 的使用時機 - 修改後||
 |BadSRPOrderManager|請試著找出該 OrderManager 類別，不符合 單一責任原則 地方||
 |GoodSRPOrderManager|請試著修正該 OrderManager 類別，使其符合 單一責任原則 ||
-||||
+|DIExperience|第一次體驗有無相依性注入與使用DI容器的用法||
 ||||
 ||||
 ||||
