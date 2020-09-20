@@ -22,7 +22,7 @@
 |LSPFruitFix|挑戰套用 LSP 原則 – 解法||
 |BeforeAllInOneCarISP|採用將介面分開成不同群組之技能練習題目說明||
 |AfterAllInOneCarISP|採用將介面分開成不同群組之技能之作法說明||
-||||
+|AllInOnePrinterISP1|如何設計一個全功能印表機並符合ISP||
 ||||
 ||||
 ||||
