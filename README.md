@@ -18,7 +18,7 @@
 |LSP1Rectangle|第一版：設計矩形類別與計算面積||
 |LSP2Square|第二版：新增 Square 類別 (繼承 Rectangle)||
 |LSP3Area|正確套用 LSP 原則||
-||||
+|LSPFruit|挑戰套用 LSP 原則||
 ||||
 ||||
 ||||
