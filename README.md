@@ -15,7 +15,7 @@
 |BeforeAppEventOCP|請找出 AppEvent 類別，不符合 開放封閉原則 地方||
 |ModifyAppEventOCP1|修正1 - 找出 AppEvent 類別，不符合 OCP 地方||
 |ModifyAppEventOCP2|請修正 AppEvent 類別，使其符合 開放封閉原則 ||
-||||
+|LSP1Reectangle|第一版：設計矩形類別與計算面積||
 ||||
 ||||
 ||||
