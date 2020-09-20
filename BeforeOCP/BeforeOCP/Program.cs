@@ -6,7 +6,12 @@ namespace BeforeOCP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // 功能寫死，無法輕易擴充存取其他資料庫
+            SqlDataProvider SqlDataProvider = 
+                new SqlDataProvider();
+            SqlDataProvider.OpenConnection();
+            SqlDataProvider.ExecuteCommand();
+            SqlDataProvider.CloseConnection();
         }
     }
     class SqlDataProvider
