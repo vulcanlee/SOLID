@@ -25,7 +25,7 @@
 |AllInOnePrinterISP1|如何設計一個全功能印表機並符合ISP||
 |AllInOnePrinterISP2|符合ISP的全功能印表機設計||
 |SimpleExerciseDIP|請指出以下兩個類別哪些地方違反了 DIP 原則||
-||||
+|SimpleSolutionDIP|請試著修正程式碼，使其符合 相依反轉原則||
 ||||
 ||||
 ||||
