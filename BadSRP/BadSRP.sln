@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadSRP", "BadSRP\BadSRP.csproj", "{FDF72C72-9335-4209-B640-EB8F580BF583}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF72C72-9335-4209-B640-EB8F580BF583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF72C72-9335-4209-B640-EB8F580BF583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF72C72-9335-4209-B640-EB8F580BF583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF72C72-9335-4209-B640-EB8F580BF583}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3407B018-66D6-46EA-824A-A4B08B9675AA}
+	EndGlobalSection
+EndGlobal

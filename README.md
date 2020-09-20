@@ -5,7 +5,7 @@
 |Cohesion|請指出這個類別的 內聚特性 為高還是低||
 |Coupling|請指出這個類別的 耦合特性 為高還是低||
 |HowManyResponsibility|請問以下類別有多少責任？||
-||||
+|BadSRP|關於 SRP 的使用時機 - 修改前||
 ||||
 ||||
 ||||
