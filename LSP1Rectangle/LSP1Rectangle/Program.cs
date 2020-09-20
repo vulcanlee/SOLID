@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LSP1Reectangle
+namespace LSP1Rectangle
 {
     class Program
     {
