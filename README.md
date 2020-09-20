@@ -7,7 +7,7 @@
 |HowManyResponsibility|請問以下類別有多少責任？||
 |BadSRP|關於 SRP 的使用時機 - 修改前||
 |GoodSRP|關於 SRP 的使用時機 - 修改後||
-||||
+|BadSRPOrderManager|請試著找出該 OrderManager 類別，不符合 單一責任原則 地方||
 ||||
 ||||
 ||||
