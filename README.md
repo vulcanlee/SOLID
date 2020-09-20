@@ -11,7 +11,7 @@
 |GoodSRPOrderManager|請試著修正該 OrderManager 類別，使其符合 單一責任原則 ||
 |DIExperience|第一次體驗有無相依性注入與使用DI容器的用法||
 |BeforeOCP|未套用 OCP 前 – 設計一個可以存取 SQL Server 類別||
-||||
+|AfterOCP|套用 OCP 後 – 可以存取多資料庫的設計||
 ||||
 ||||
 ||||
