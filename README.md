@@ -23,8 +23,8 @@
 |BeforeAllInOneCarISP|採用將介面分開成不同群組之技能練習題目說明||
 |AfterAllInOneCarISP|採用將介面分開成不同群組之技能之作法說明||
 |AllInOnePrinterISP1|如何設計一個全功能印表機並符合ISP||
-||||
-||||
+|AllInOnePrinterISP2|符合ISP的全功能印表機設計||
+|SimpleExerciseDIP|請指出以下兩個類別哪些地方違反了 DIP 原則||
 ||||
 ||||
 ||||
