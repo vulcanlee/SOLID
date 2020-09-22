@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyBothDIP", "CopyBothDIP\CopyBothDIP.csproj", "{DFCAAFBB-2FED-4AF2-8C4B-61D0C7FB7C88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFCAAFBB-2FED-4AF2-8C4B-61D0C7FB7C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCAAFBB-2FED-4AF2-8C4B-61D0C7FB7C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCAAFBB-2FED-4AF2-8C4B-61D0C7FB7C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCAAFBB-2FED-4AF2-8C4B-61D0C7FB7C88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC1E022E-93B5-4E7D-8C31-F29E61AB9C70}
+	EndGlobalSection
+EndGlobal

@@ -29,7 +29,7 @@
 |CopySourceDIP|Uncle Bob 當初提出 DIP 文章所論述的尚未反轉範例||
 |CopyNoDIP|新需求 – 呼叫端可以決定是否要輸出到螢幕或檔案||
 |CopyWithDIP|相依反轉 DIP 之 Copy – 第一次修正 ||
-||||
+|CopyBothDIP|相依反轉 DIP 之 Copy – 第二次修正||
 ||||
 ||||
 

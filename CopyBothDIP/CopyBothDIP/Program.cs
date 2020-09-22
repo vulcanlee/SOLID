@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 
-namespace CopyWithDIP
+namespace CopyBothDIP
 {
     public interface IReader
     {
-        ConsoleKeyInfo Read();
+        ReadResult Read();
     }
     public interface IWriter: IDisposable
     {
@@ -13,19 +13,21 @@ namespace CopyWithDIP
     }
     public class ConsoleReader : IReader
     {
-        public ConsoleKeyInfo Read()
+        public ReadResult Read()
         {
-            return Console.ReadKey(true);
+            var consoleKeyInfo = Console.ReadKey(true);
+            return new ReadResult(consoleKeyInfo.KeyChar,
+                consoleKeyInfo.Key == ConsoleKey.Escape);
         }
     }
     public class ConsoleWriter : IWriter
     {
+        public void Dispose()
+        {
+        }
         public void Writer(char character)
         {
             Console.Write(character);
-        }
-        public void Dispose()
-        {
         }
     }
     public class FileWriter : IWriter
@@ -46,7 +48,16 @@ namespace CopyWithDIP
             writer.Write(character);
         }
     }
-
+    public class ReadResult
+    {
+        public readonly char character;
+        public readonly bool shouldQuit;
+        public ReadResult(char character, bool shouldQuit)
+        {
+            this.character = character;
+            this.shouldQuit = shouldQuit;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -67,12 +78,10 @@ namespace CopyWithDIP
 
             while (true)
             {
-                var consoleKeyInfo = reader.Read();
-                if (consoleKeyInfo.Key == ConsoleKey.Escape)
-                {
+                var readResult = reader.Read();
+                if (readResult.shouldQuit)
                     break;
-                }
-                writer.Writer(consoleKeyInfo.KeyChar);
+                writer.Writer(readResult.character);
             }
         }
     }
