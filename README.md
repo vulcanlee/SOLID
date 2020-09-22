@@ -26,7 +26,7 @@
 |AllInOnePrinterISP2|符合ISP的全功能印表機設計||
 |SimpleExerciseDIP|請指出以下兩個類別哪些地方違反了 DIP 原則||
 |SimpleSolutionDIP|請試著修正程式碼，使其符合 相依反轉原則||
-||||
+|CopySourceDIP|Uncle Bob 當初提出 DIP 文章所論述的尚未反轉範例||
 ||||
 ||||
 ||||
